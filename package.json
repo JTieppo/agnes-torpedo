@@ -1,0 +1,19 @@
+{
+    "name": "atvd1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "lite-server"
+    },
+    "lite-server": {
+        "port": 3000,
+        "file": ["*.js", "*.html", "*.css"],
+        "server": {"baseDir": "./"}
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "lite-server": "^2.6.1"
+    }
+}
